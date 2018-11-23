@@ -12,3 +12,9 @@
 1. `<nav>` - navigation: Usado semanticamente para envolver um conjunto de links. Surgiu no html5;
 1. `<header>` - header: Usado para envolver todo o cabeçalho. Não confundir com `<head>` que usada para conter as informações do site.
 1. `<head>` - head: No head colococamos as tags de "controle" do nosso site: `<title>, <meta>, <link>, <script>`.
+
+## CSS
+
+- Linguagem de estilo com as seguintes responsabilidades;
+
+1. visual.
