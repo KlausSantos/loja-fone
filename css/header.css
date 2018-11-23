@@ -1,4 +1,6 @@
 header {
+  width: 100%;
+  display: inline-block;
   background-color: #e24647;
 }
 
@@ -7,8 +9,13 @@ a {
   color: #fff;
 }
 h1 {
+  float: left;
   font-family: Arial, sans-serif;
   font-size: 40px;
+}
+nav {
+  float: right;
+  line-height: 40px;
 }
 a {
   font-family: "Roboto", sans-serif;
