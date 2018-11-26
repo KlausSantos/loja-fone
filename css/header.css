@@ -1,24 +1,24 @@
 header {
-  width: 100%;
-  display: inline-block;
+  /* display: inline-block; */
   background-color: #e24647;
+  color: #fff;
+  margin: 0 115px;
+  padding: 55px 60px 95px;
+  overflow: hidden;
 }
 
-h1,
-a {
-  color: #fff;
-}
 h1 {
   float: left;
-  font-family: Arial, sans-serif;
+  font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
 }
 nav {
+  font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
-  line-height: 40px;
+  font-size: 21px;
+  /* line-height: 40px; */
 }
 a {
-  font-family: "Roboto", sans-serif;
-  font-size: 21px;
+  color: inherit;
   text-decoration: none;
 }
