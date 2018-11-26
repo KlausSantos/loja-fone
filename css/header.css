@@ -20,5 +20,6 @@ nav {
 }
 a {
   color: inherit;
+  padding-left: 60px;
   text-decoration: none;
 }
