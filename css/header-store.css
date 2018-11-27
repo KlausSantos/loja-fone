@@ -1,25 +1,23 @@
-header {
-  /* display: inline-block; */
-  background-color: #e24647;
-  color: #fff;
-  margin: 0 115px;
-  padding: 55px 60px 95px;
+.header-store {
+  color: #ffffff;
   overflow: hidden;
 }
 
-h1 {
+.title {
   float: left;
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
 }
-nav {
+.navigation {
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
   font-size: 21px;
-  /* line-height: 40px; */
 }
-a#menu {
+.action {
   color: inherit;
-  padding-left: 60px;
+  margin-right: 60px;
   text-decoration: none;
+}
+.last {
+  margin-right: 0;
 }
