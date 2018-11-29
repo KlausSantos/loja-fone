@@ -1,8 +1,6 @@
 .description-product {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  float: right;
-  width: 555px;
 }
 
 .description-product > .title {
@@ -33,10 +31,6 @@
   font-size: 18px;
   margin-bottom: 35px;
   line-height: 30px;
-}
-
-.description-product > .text.-more {
-  margin-bottom: 98px;
 }
 
 .description-product .action {
