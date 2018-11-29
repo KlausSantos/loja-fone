@@ -21,6 +21,14 @@
   margin-right: 60px;
   text-decoration: none;
 }
+.header-store .action.-frist {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 65px;
+  height: 30px;
+  width: 358px;
+  border-bottom: 1px solid #ffffff;
+}
 .header-store .action.-last {
   margin-right: 0;
 }
