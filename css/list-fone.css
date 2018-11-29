@@ -1,0 +1,27 @@
+.list-fone {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 155px;
+}
+
+.titleFone {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.defineFone {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 75px 0;
+}
+
+.know {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+}
