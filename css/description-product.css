@@ -1,0 +1,51 @@
+.description-product {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  float: right;
+  width: 555px;
+}
+
+.description-product > .title {
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.description-product > .item {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.description-product > .item.-info {
+  text-align: right;
+  width: 200px;
+}
+
+.description-product > .item.-last {
+  margin-bottom: 72px;
+}
+
+.description-product .contrast {
+  float: left;
+  text-transform: uppercase;
+}
+
+.description-product > .text {
+  font-size: 18px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+
+.description-product > .text.-more {
+  margin-bottom: 98px;
+}
+
+.description-product .action {
+  color: inherit;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.frame {
+  margin-right: 55px;
+  float: left;
+}

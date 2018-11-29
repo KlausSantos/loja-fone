@@ -1,23 +1,25 @@
 .header-store {
   color: #ffffff;
+  margin-bottom: 138px;
   overflow: hidden;
 }
 
-.title {
+.header-store > .title {
   float: left;
   font-family: Arial, "Roboto", sans-serif;
   font-size: 40px;
+  text-transform: uppercase;
 }
-.navigation {
+.header-store > .navigation {
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
   font-size: 21px;
 }
-.action {
+.header-store .action {
   color: inherit;
   margin-right: 60px;
   text-decoration: none;
 }
-.last {
+.header-store .action.-last {
   margin-right: 0;
 }
