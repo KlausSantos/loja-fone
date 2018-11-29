@@ -16,6 +16,16 @@
 .button-store.-second {
   background-color: transparent;
   border: 2px solid #ffffff;
+  margin-right: 38px;
   line-height: 56px;
   width: 218px;
+}
+
+.button-store > button,
+.button-store > a {
+  font-size: inherit;
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  text-decoration: inherit;
 }
