@@ -17,11 +17,16 @@
 .description {
   font-size: 18px;
   line-height: 30px;
-  margin: 75px 0;
+  margin: 75px 0 30px;
 }
 
 .know {
   color: #ffffff;
   font-size: 18px;
   text-decoration: none;
+}
+
+.frame {
+  margin: 100px 55px 0 0;
+  float: left;
 }
