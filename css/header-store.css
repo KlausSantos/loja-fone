@@ -16,19 +16,25 @@
   float: right;
   font-size: 21px;
 }
+
+.header-store [type="search"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: inherit;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  margin-right: 65px;
+  padding: 8px;
+  width: 358px;
+}
+
 .header-store .action {
   color: inherit;
   margin-right: 60px;
   text-decoration: none;
 }
-.header-store .action.-frist {
-  font-size: 20px;
-  display: inline-block;
-  margin-right: 65px;
-  height: 30px;
-  width: 358px;
-  border-bottom: 1px solid #ffffff;
-}
+
 .header-store .action.-last {
   margin-right: 0;
 }
