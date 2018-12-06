@@ -36,6 +36,10 @@
   text-decoration: none;
 }
 
+.header-store .action:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
 .header-store .action.-last {
   margin-right: 0;
 }
