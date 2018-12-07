@@ -27,18 +27,21 @@
   font-size: 20px;
   margin-right: 65px;
   padding: 8px;
+  vertical-align: bottom;
   width: 358px;
 }
 
 .header-store .action {
+  border-bottom: 1px solid transparent;
   color: inherit;
+  display: inline-block;
   margin-right: 60px;
+  padding-bottom: 8px;
   text-decoration: none;
-  transition: border-bottom 3s linear;
 }
 
 .header-store .action:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .header-store .action.-last {
