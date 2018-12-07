@@ -32,18 +32,31 @@
 }
 
 .header-store .action {
-  border-bottom: 1px solid transparent;
   color: inherit;
   display: inline-block;
   margin-right: 60px;
   padding-bottom: 8px;
+  position: relative;
   text-decoration: none;
-}
-
-.header-store .action:hover {
-  border-bottom-color: #ffffff;
 }
 
 .header-store .action.-last {
   margin-right: 0;
+}
+
+.header-store .action::after {
+  background-color: #fff;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 200ms linear;
+  width: 100%;
+}
+
+.header-store .action:hover::after {
+  transform: scaleX(1);
 }
