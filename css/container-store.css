@@ -9,3 +9,20 @@
   transform: translateY(-50%) translateX(-50%);
   width: 90%;
 }
+
+@media (max-width: 1470px), (max-height: 952px) {
+  .container-store {
+    max-width: 100%;
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+}
+
+@media (max-height: 952px) {
+  .container-store {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
