@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 955px) {
+@media (max-width: 965px) {
   .container-store {
     padding-right: 30px;
   }
@@ -33,7 +33,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 387px) {
   .container-store {
     padding-right: 16px;
   }

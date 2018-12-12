@@ -74,7 +74,7 @@
   }
 }
 
-@media (max-width: 955px) {
+@media (max-width: 965px) {
   .header-store {
     padding-left: 30px;
   }
@@ -95,17 +95,17 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 387px) {
   .header-store {
     padding-left: 16px;
   }
 
   .header-store .action {
-    margin-right: 15px;
+    margin-right: 8px;
   }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 359px) {
   .header-store > .navigation {
     display: none;
   }
