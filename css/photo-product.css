@@ -10,4 +10,14 @@
 
 /* Encontrado o breakpoint para o photo-product e o description-product */
 @media (max-width: 1322px) {
+  .photo-product {
+    margin-right: 20px;
+  }
+}
+
+/* Tentei centralizar o produto e as decrições no centro da página mas não consegui */
+@media (max-width: 1203px) {
+  .photo-product {
+    border-radius: 150px;
+  }
 }
