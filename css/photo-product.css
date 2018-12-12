@@ -7,3 +7,7 @@
   height: 554px;
   vertical-align: middle;
 }
+
+/* Encontrado o breakpoint para o photo-product e o description-product */
+@media (max-width: 1322px) {
+}
