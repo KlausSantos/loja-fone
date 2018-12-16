@@ -68,8 +68,8 @@
   text-decoration: none;
 }
 
-@media (max-width: 1322px) {
+/* @media (max-width: 1322px) {
   .description-product > .item.-heart {
     transform: translateX(100%) translateY(100%);
   }
-}
+} */
