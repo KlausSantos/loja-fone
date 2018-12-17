@@ -63,11 +63,15 @@
 
 @media (max-width: 1310px) {
   .header-store {
+    margin-bottom: 70px;
     padding-right: 60px;
   }
 }
 
 @media (max-width: 1235px) {
+  .header-store {
+    margin-bottom: 40px;
+  }
   .header-store > .title {
     float: none;
     margin-bottom: 20px;
@@ -80,8 +84,9 @@
   }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 1015px) {
   .header-store {
+    margin-bottom: 20px;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -102,18 +107,17 @@
   }
 }
 
-@media (max-width: 387px) {
+@media (max-width: 425px) {
   .header-store {
     padding-right: 16px;
     padding-left: 16px;
   }
-
   .header-store .action {
     margin-right: 8px;
   }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 383px) {
   .header-store > .navigation {
     display: none;
   }
