@@ -68,8 +68,21 @@
   text-decoration: none;
 }
 
-/* @media (max-width: 1322px) {
-  .description-product > .item.-heart {
-    transform: translateX(100%) translateY(100%);
+@media (max-width: 1310px) {
+  .description-product {
+    margin: 0 auto 60px;
+    min-width: 655px;
+    width: 50%;
   }
-} */
+  .description-product > .title {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .description-product {
+    min-width: auto;
+    width: 90%;
+  }
+}

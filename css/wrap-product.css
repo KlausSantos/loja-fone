@@ -5,16 +5,22 @@
   width: 554px;
 }
 
-.buttons {
+.wrap-product > .buttons {
   position: absolute;
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
-/* 
-@media (max-width: 1322px) {
+
+@media (max-width: 1310px) {
   .wrap-product {
+    width: 100%;
+  }
+  .wrap-product > .buttons {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    position: static;
+    text-align: center;
+    transform: none;
+    width: 100%;
   }
-} */
+}
