@@ -31,6 +31,10 @@
   width: 358px;
 }
 
+.header-store[type="search"]::placeholder {
+  color: inherit;
+}
+
 .header-store .action {
   color: inherit;
   display: inline-block;
@@ -63,14 +67,13 @@
 
 @media (max-width: 1310px) {
   .header-store {
-    margin-bottom: 70px;
     padding-right: 60px;
   }
 }
 
 @media (max-width: 1235px) {
   .header-store {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   .header-store > .title {
     float: none;
@@ -86,7 +89,7 @@
 
 @media (max-width: 1015px) {
   .header-store {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding-right: 30px;
     padding-left: 30px;
   }
