@@ -16,8 +16,6 @@ function handleClick() {
 
 const $last = window.document.querySelector(".-last");
 
-$second.addEventListener("click", handleSecond);
-
 function handleSecond() {
   console.log("Clicando Feliz");
   $last.innerHTML = "Feliz";
