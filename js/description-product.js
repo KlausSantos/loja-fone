@@ -16,4 +16,8 @@ function handleClick() {
 
 const $second = window.document.querySelector(".-second");
 
-console.log($second);
+$second.addEventListener("click", handleSecond);
+
+function handleSecond() {
+  console.log("Clicando Feliz");
+}
