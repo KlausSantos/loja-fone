@@ -2,6 +2,7 @@ const $second = document.querySelector(".-second");
 
 $second.addEventListener("click", handleClick);
 
-function handlrClick() {
-  console.log("Clicou Feliz");
+function handleClick() {
+  const $carrinho = document.querySelector(".-last");
+  $carrinho.textContent = "Feliz";
 }

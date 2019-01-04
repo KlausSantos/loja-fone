@@ -13,10 +13,3 @@ $heart.addEventListener("click", handleClick);
 function handleClick() {
   console.log("ae");
 }
-
-const $last = window.document.querySelector(".-last");
-
-function handleSecond() {
-  console.log("Clicando Feliz");
-  $last.innerHTML = "Feliz";
-}
