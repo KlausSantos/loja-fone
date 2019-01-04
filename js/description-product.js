@@ -15,6 +15,7 @@ function handleClick() {
 }
 
 const $second = window.document.querySelector(".-second");
+const $last = window.document.querySelector(".-last");
 
 $second.addEventListener("click", handleSecond);
 
