@@ -8,8 +8,12 @@
 
 const $heart = window.document.querySelector(".-heart");
 
-$heart.addEventListener('click', handleClick);
+$heart.addEventListener("click", handleClick);
 
 function handleClick() {
-  console.log('ae');
+  console.log("ae");
 }
+
+const $second = window.document.querySelector(".-second");
+
+console.log($second);
