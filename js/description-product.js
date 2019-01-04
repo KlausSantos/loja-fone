@@ -14,11 +14,11 @@ function handleClick() {
   console.log("ae");
 }
 
-const $second = window.document.querySelector(".-second");
 const $last = window.document.querySelector(".-last");
 
 $second.addEventListener("click", handleSecond);
 
 function handleSecond() {
   console.log("Clicando Feliz");
+  $last.innerHTML = "Feliz";
 }
