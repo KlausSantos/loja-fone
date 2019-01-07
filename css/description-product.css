@@ -22,7 +22,8 @@
 }
 
 .description-product > .item.-active {
-  background-color: #ffffff;
+  background-image: url(../img/heart2.png);
+  background-repeat: no-repeat;
 }
 
 .description-product > .item.-star {
