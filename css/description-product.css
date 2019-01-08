@@ -22,8 +22,7 @@
 }
 
 .description-product > .item.-active {
-  background-image: url(../img/heart2.png);
-  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .description-product > .item.-star {
@@ -37,6 +36,18 @@
 
 .description-product .icon:hover {
   transform: scale(1.2);
+}
+
+.description-product .icon.-active {
+  display: none;
+}
+
+.description-product > .item.-active .icon {
+  display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+  display: block;
 }
 
 .description-product > .item.-star + .item {
@@ -79,6 +90,12 @@
     min-width: 655px;
     width: 50%;
   }
+
+  .description-product > .item.-heart {
+    left: auto;
+    transform: none;
+  }
+
   .description-product > .title {
     font-size: 35px;
     text-align: center;
