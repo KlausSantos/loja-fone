@@ -21,10 +21,6 @@
   top: 8px;
 }
 
-.description-product > .item.-active {
-  background-color: #fff;
-}
-
 .description-product > .item.-star {
   cursor: pointer;
   margin-bottom: 10px;
@@ -35,7 +31,7 @@
 }
 
 .description-product .icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .description-product .icon.-active {
@@ -47,6 +43,18 @@
 }
 
 .description-product > .item.-active .icon.-active {
+  display: block;
+}
+
+.description-product .star {
+  display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+  display: none;
+}
+
+.description-product .star.-active > .-active {
   display: block;
 }
 
