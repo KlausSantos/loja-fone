@@ -15,10 +15,12 @@
 
 .description-product > .item.-heart {
   cursor: pointer;
+  height: 29px;
+  left: -47px;
   position: absolute;
   transform: translateX(-100%);
-  left: -47px;
   top: 8px;
+  width: 33px;
 }
 
 .description-product > .item.-star {
@@ -97,11 +99,6 @@
     margin: 0 auto 60px;
     min-width: 655px;
     width: 50%;
-  }
-
-  .description-product > .item.-heart {
-    left: auto;
-    transform: none;
   }
 
   .description-product > .title {
