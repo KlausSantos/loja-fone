@@ -124,12 +124,11 @@
   .description-product {
     min-width: auto;
     width: 90%;
-  }
+  }520
 }
 
-@media (max-width: 520px) {
+@media (max-width: 475px) {
   .description-product > .item.-heart {
-    right: 80px;
-    top: 90px;
+    position: static;
   }
 }
