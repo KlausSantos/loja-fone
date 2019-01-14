@@ -94,7 +94,17 @@
     padding-left: 30px;
   }
   .header-store [type="search"] {
-    display: none;
+    background-color: #fff;
+    color: #000;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(-88%);
+    transition: transform 300ms linear;
+  }
+  .header-store [type="search"].-active {
+    transform: translateX(0);
+    transition: transform 500ms cubic-bezier(0, 0, 0.94, 1.26);
   }
 }
 
