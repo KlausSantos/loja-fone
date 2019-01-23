@@ -120,7 +120,18 @@
     text-indent: -9999px;
     width: 40px;
   }
-  .header-store .action {
-    display: none;
+  .header-store .list {
+    background-color: #fff;
+    color: #000;
+    right: 0;
+    padding: 20px 0 10px;
+    position: absolute;
+    transform: translateX(100%);
+    top: 0;
+    width: 100vw;
+  }
+
+  .header-store .item {
+    display: block;
   }
 }
