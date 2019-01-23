@@ -111,13 +111,16 @@
   .header-store .item.-menu {
     background: url(../img/menu.svg) no-repeat #fff center;
     box-sizing: border-box;
+    cursor: pointer;
     display: block;
     height: 40px;
+    left: 0;
     margin: 0;
-    right: 0;
     position: absolute;
     top: 0;
     text-indent: -9999px;
+    transform: translateX(-100%);
+    transition: transform 100ms 400ms linear;
     width: 40px;
   }
   .header-store .list {
@@ -127,8 +130,20 @@
     padding: 20px 0 10px;
     position: absolute;
     transform: translateX(100%);
+    transition: transform 300ms linear;
     top: 0;
     width: 100vw;
+  }
+
+  .header-store .list.-active {
+    transform: translateX(0);
+  }
+
+  .header-store .list.-active .item.-menu {
+    background-image: url(../img/close.svg);
+    background-size: 70%;
+    transform: translateX(0);
+    transition: none;
   }
 
   .header-store .item {
