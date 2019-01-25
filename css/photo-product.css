@@ -5,6 +5,7 @@
   display: inline-block;
   margin-right: 157px;
   height: 554px;
+  padding-left: 100px;
   vertical-align: middle;
 }
 
@@ -12,6 +13,7 @@
 @media (max-width: 1325px) {
   .photo-product {
     margin-right: 140px;
+    text-align: center;
   }
 }
 
@@ -21,7 +23,7 @@
     display: block;
     margin-bottom: 30px;
     margin-right: 0;
-    text-align: center;
+    padding-left: 0;
   }
 }
 
