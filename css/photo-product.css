@@ -6,7 +6,19 @@
   margin-right: 157px;
   height: 554px;
   padding-left: 100px;
+  position: relative;
   vertical-align: middle;
+}
+
+.photo-product::before {
+  background-color: #fff;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform: translateX(-100%);
+  z-index: -1;
+  width: 100%;
 }
 
 /* Encontrado o breakpoint para o photo-product e o description-product */

@@ -1,6 +1,7 @@
 .container-store {
   background-color: #e24647;
   box-sizing: border-box;
+  box-shadow: 0 0 39px 0 rgba(50, 50, 50, 0.36);
   max-width: 1330px;
   padding: 55px 60px 165px 0;
   position: absolute;
